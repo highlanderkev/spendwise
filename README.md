@@ -17,13 +17,13 @@ SpendWise is a personal finance web application that helps you track expenses, m
 - [Tailwind CSS](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/)
 - [Recharts](https://recharts.org/) for data visualization
 - [Firebase Genkit](https://firebase.google.com/docs/genkit) for AI flows
-- [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) for form validation
+- [React Hook Form](https://react-hook-form.com/) for form validation
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js >= 18.18 (or Node.js 20+ recommended)
 - npm
 
 ### Install dependencies
@@ -58,6 +58,7 @@ npm run genkit:dev
 | `npm run lint` | Run ESLint |
 | `npm run typecheck` | Run TypeScript type checking |
 | `npm run genkit:dev` | Start the Genkit AI dev UI |
+| `npm run genkit:watch` | Watch Genkit AI flows for changes |
 
 ## Deployment
 
